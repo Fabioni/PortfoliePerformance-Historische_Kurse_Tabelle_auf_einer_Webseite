@@ -13,9 +13,10 @@ def main():
     r.html.render(sleep=2, keep_page=True)
 
     notationNameIds = [(opt.text, opt.attrs['value']) for opt in r.html.find('select#select-market', first=True).find('option')]
+    #notationNameIds = [('Baader Bank (EUR, Echtzeit)', '28299034'), ('Berlin (EUR, Echtzeit)', '15876426'), ('Düsseldorf (EUR, Echtzeit)', '16043559'), ('Frankfurt (EUR, verzögert)', '15912438'), ('gettex (EUR, Echtzeit)', '120540319'), ('Hamburg (EUR, Echtzeit)', '16009935'), ('KVG (EUR, Echtzeit)', '6334133'), ('München (EUR, Echtzeit)', '22980888'), ('Quotrix (EUR, Echtzeit)', '178563840'), ('Stuttgart (EUR, Echtzeit)', '24072743'), ('Swiss Exchange (EUR, verzögert)', '77698999'), ('Tradegate (EUR, Echtzeit)', '155594393')]
 
     # chose one
-    print(notationNameIds)
+    print("\n".join([str(i) + ": " + name_notation[0] for (i, name_notation) in enumerate(notationNameIds)]))
     idx = int(input("index?: "))
     notationId = notationNameIds[idx][1]
     boerse = urllib.parse.quote(notationNameIds[idx][0])
