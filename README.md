@@ -12,9 +12,9 @@ Automatisiertes Erstellen eines Links, um ihn bei Portfolie Performance bei „T
 
 1. open a terminal at this folder location
 
-1. run `pip install -r requirements.txt` inside
+1. run `pip3 install -r requirements.txt` inside
 
-1. run the script. It asks for ISIN and startdate, the maximal time period of 5 years is used.
+1. run the script with `python3 main.py`. It asks for ISIN and startdate, the maximal time period of 5 years is used.
 
 
 ## Interaction
