@@ -1,5 +1,5 @@
-# PortfoliePerformance-Historische_Kurse_Tabelle_auf_einer_Webseite
-Automatisiertes Erstellen eines Links, um ihn bei Portfolie Performance bei "Tabelle auf einer Website" einzugüfen.
+# Portfolie Performance – Historische Kurse – Link für „Tabelle auf einer Webseite“
+Automatisiertes Erstellen eines Links, um ihn bei Portfolie Performance bei „Tabelle auf einer Website“ einzugüfen.
 
 
 
