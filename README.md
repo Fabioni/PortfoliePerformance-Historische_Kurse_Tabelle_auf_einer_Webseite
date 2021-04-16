@@ -30,7 +30,7 @@ https://www.onvista.de/onvista/times+sales/popup/historische-kurse/?notationId=1
 
 1. install python3
 
-1. Download .zip from GitHub and unzip it
+1. Download .zip from GitHub and unzip it. To do so click the green button.
 
 1. open a terminal at this folder location
 
